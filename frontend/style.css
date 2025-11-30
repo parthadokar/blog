@@ -5,6 +5,7 @@
 
 body {
     background-color: var(--primary-color);
+    font-family: sans-serif;
 }
 
 .head-container {
@@ -24,6 +25,9 @@ body {
     padding: 0.5rem 1rem;
 }
 
+.main a {
+    text-decoration: none;
+}
 .footer-links {
     display: flex;
     justify-content: center;     
@@ -36,3 +40,14 @@ body {
     text-decoration: none;
     padding: 0.5rem;
 }
+
+.main {
+    text-align: center;
+}
+
+/* Light & Dark */
+
+.dark-mode { background-color: black; color: white; }
+.light-mode { background-color: white; color: black; }   
+.dark-mode .nav-links a {color: white;}
+.dark-mode .footer-links a {color: white;}
